@@ -10,7 +10,7 @@ describe('test', function() {
 
 describe('forTest', function() {
   it('forTest', function() {
-    let actual = 5;
+    let actual = 3;
     let expected = 5;
     assert.strictEqual(actual, expected);
   });

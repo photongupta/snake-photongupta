@@ -1,8 +1,8 @@
   % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
                                  Dload  Upload   Total   Spent    Left  Speed
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 13.233.76.15...
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0*   Trying 13.234.168.60...
 * TCP_NODELAY set
-* Connected to api.github.com (13.233.76.15) port 443 (#0)
+* Connected to api.github.com (13.234.168.60) port 443 (#0)
 * ALPN, offering h2
 * ALPN, offering http/1.1
 * Cipher selection: ALL:!EXPORT:!EXPORT40:!EXPORT56:!aNULL:!LOW:!RC4:@STRENGTH
@@ -44,19 +44,19 @@
 > Accept: */*
 > photongupta: token b90c66f88c6687a522ca8a89fe73f0e2f3767300
 > 
-  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0< HTTP/1.1 200 OK
-< Date: Sun, 01 Mar 2020 12:07:20 GMT
+< HTTP/1.1 200 OK
+< Date: Sun, 01 Mar 2020 14:05:54 GMT
 < Content-Type: application/json; charset=utf-8
-< Content-Length: 120233
+< Content-Length: 119795
 < Server: GitHub.com
 < Status: 200 OK
 < X-RateLimit-Limit: 60
-< X-RateLimit-Remaining: 36
-< X-RateLimit-Reset: 1583065764
+< X-RateLimit-Remaining: 12
+< X-RateLimit-Reset: 1583074279
 < Cache-Control: public, max-age=60, s-maxage=60
 < Vary: Accept
-< ETag: "1d9a09ec28a8dcbb63c1fbe8f28a36b6"
-< Last-Modified: Sun, 19 Jan 2020 11:11:48 GMT
+< ETag: "72a911908f15047e79d596664ade60d6"
+< Last-Modified: Sun, 01 Mar 2020 13:25:59 GMT
 < X-GitHub-Media-Type: github.v3; format=json
 < Link: <https://api.github.com/repositories/234886920/commits?page=2>; rel="next", <https://api.github.com/repositories/234886920/commits?page=2>; rel="last"
 < Access-Control-Expose-Headers: ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, Deprecation, Sunset
@@ -68,8 +68,8 @@
 < Referrer-Policy: origin-when-cross-origin, strict-origin-when-cross-origin
 < Content-Security-Policy: default-src 'none'
 < Vary: Accept-Encoding, Accept, X-Requested-With
-< X-GitHub-Request-Id: 4B8B:0BC7:5DE896:793788:5E5BA578
+< X-GitHub-Request-Id: 37C3:08B9:5E3B8F:79AF3E:5E5BC142
 < 
 { [113 bytes data]
-100  117k  100  117k    0     0  88558      0  0:00:01  0:00:01 --:--:-- 88602
+ 39  116k   39 47720    0     0  44673      0  0:00:02  0:00:01  0:00:01 44639100  116k  100  116k    0     0  87674      0  0:00:01  0:00:01 --:--:-- 87633
 * Connection #0 to host api.github.com left intact
