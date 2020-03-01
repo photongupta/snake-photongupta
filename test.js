@@ -7,3 +7,11 @@ describe('test', function() {
     assert.strictEqual(actual, expected);
   });
 });
+
+describe('forTest', function() {
+  it('forTest', function() {
+    let actual = 5;
+    let expected = 5;
+    assert.strictEqual(actual, expected);
+  });
+});
